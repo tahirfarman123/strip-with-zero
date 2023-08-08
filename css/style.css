@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap');
+
+:root {
+    --primary: #4D47C3;
+    --seconday: #4285F4;
+    --white: #ffffff;
+    --dark: #000000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+div,
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    overflow-y: none;
+}
+
+input {
+    height: 55px;
+
+}
+html,body {
+    height: 100%;
+  }
+  
+  #yellow {
+    height: 100%;
+    background: yellow;
+  }
+.form-control:focus {
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    border-color: var(--primary);
+    box-shadow: 0 0 0 0.25rem transparent;
+}
+#os-login .os-bg{
+    background-image: linear-gradient(var(--seconday), var(--primary));
+    height: 100%;
+    
+}
+#os-login .os-bg h1{
+    font-weight: 800;
+    font-size: 50px;
+}
+#os-login .os-bg p{
+    font-size: 12px;
+    font-weight: 600;
+}
+#os-login .centerdata{
+width: 50%;    
+margin: 20% auto;
+}
+#os-login .os-pad{
+    /* padding: 100px 100px 0px 100px; */
+    width: 70%;
+    margin: 20% auto 0% auto;
+}
+#os-login form .descrp1{
+    font-size: 30px;
+} */
+input::placeholder {
+    color: #ABAFB1 ;
+    font-size: 16px;
+  }
+#os-login .text-body{
+    color: #ABAFB1;
+    text-decoration: none;
+}
+.btn {
+    height: 55px;
+    padding: 12px;
+    background: var(--primary) ;
+    color: var(--white);
+}
+
+.btn-primary:hover {
+    background: linear-gradient(var(--seconday), var(--primary));
+}
