@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="css/dashboard.css">
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <title>Strip Login</title>
+    <style>
+      
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="sidebar col-md-4 col-lg-3 p-0">
+                <div class="" >
+                    <div class="offcanvas-body d-md-flex flex-column p-0 pt-lg-3 overflow-y-auto">
+                        <div class=" pb-4">
+                           <a href="dashboard.html"> <img src="img/logo 2.png" class="img-fluid" alt=""></a>
+                        </div>
+                        <div>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2">
+                                <a class=" btn nav-link " aria-current="page" href="form.html">
+                                   <img src="img/Category.png" class="img-fluid h-75 pr-1" alt="">
+                                   Run Setup Wizard
+                                </a>
+                            </li>
+                           
+                           
+                        </ul>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2">
+                                <a class=" btn nav-link" href="strip2.html">
+                                    <i class="fa-solid fa-chart-column px-2"></i>
+                                    Import Data
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="nav flex-column ">
+                            
+                            <li class="nav-item mb-2">
+                                <a class="btn nav-link" href="#">
+                                    <i class="fa-solid fa-folder px-2"></i>
+                                    
+                                    Stripe 2 Xero Mapping
+                                </a>
+                            </li>
+                        </ul>
+                       
+                            <ul class="nav flex-column ">
+                            <li class="nav-item mb-2">
+                                <a class="btn nav-link" href="zerosetting.html">
+                                    <i class="fa-solid fa-gear px-2"></i>
+                                    
+                                Xero and Stripe Setting
+                                </a>
+                            </li>
+                        </ul>
+                            <ul class="nav flex-column ">
+                            <li class="nav-item mb-2">
+                                <a class="btn nav-link" href="usersetup.html">
+                                    <i class="fa-solid fa-user px-2"></i>
+                                    
+                                User Setup
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="">
+                            <ul class="nav flex-column">
+                            <li class="nav-item mb-2">
+                                <a class="btn nav-link " href="#">
+                                    <i class="fa-solid fa-right-from-bracket px-2"></i>
+                                    
+                                Logout
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+            <main class="col-md-8 ms-sm-auto col-lg-9 g-0">
+                <div
+                    class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center p-3  ">
+                   <div class="">
+                    <nav class="nav">
+                        <a class="nav-link " aria-current="page" href="#">Home</a>
+                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#">Contact</a>
+                      </nav>
+                   </div>
+                    <div class="nav">
+                       <a href="" class="nav-link"> Register</a>
+                       <a href="" class="nav-link px-3"> Login</a>
+                    </div>
+                </div>
+
+               
+                    <div class="container-fluid bg-tartary p-3">
+                        <div class="card">
+                        <div class="row p-3">
+                            <div class="col-md-3">
+                                
+                                <h3 class="object">Stripe Object</h3>
+                                <label for="" class="lable-strip">Select Stripe Objects</label>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Select Stripe Objects</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                                <label for="" class="lable-strip mt-3 mb-3">Select Stripe Objects</label>
+                                <div class="border rounded">
+                                    <div class="d-flex draggable-item justify-content-between" draggable="true">
+                                        <p class="m-0">Item 1</p> <i class="fa fa-arrows"></i>
+                                    </div>
+                                    <div class="d-flex draggable-item justify-content-between" draggable="true">
+                                        <p class="m-0">Item 2</p> <i class="fa fa-arrows"></i>
+                                    </div>
+                                    <div class="d-flex draggable-item justify-content-between" draggable="true">
+                                        <p class="m-0">Item 3</p> <i class="fa fa-arrows"></i>
+                                    </div>
+                                    <div class="d-flex draggable-item justify-content-between" draggable="true">
+                                        <p class="m-0">Item 4</p> <i class="fa fa-arrows"></i>
+                                    </div>
+                                    <div class="d-flex draggable-item justify-content-between" draggable="true">
+                                        <p class="m-0">Item 5</p> <i class="fa fa-arrows"></i>
+                                    </div>
+                                </div>
+                            
+                            </div>
+                            <div class="col-md-6">
+                                <h3 class="object">Mapping of Stripe's and Xero's Attributes</h3>
+                                <label for="" class="lable-strip">Select Xero Objects</label>
+                                <div class="border rounded" >
+                    
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <h3 class="object">Xero Objects</h3>
+                                <label for="" class="lable-strip">Select Xero Objects</label>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Select Stripe Objects</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                                <label for="" class="lable-strip mt-3 mb-3">Select Stripe Objects</label>
+                                <div class="border rounded">
+                                    <div class="d-flex draggable-item justify-content-between" draggable="true">
+                                        <p class="m-0">Item 1</p> <i class="fa fa-arrows"></i>
+                                    </div>
+                                    <div class="d-flex draggable-item justify-content-between" draggable="true">
+                                        <p class="m-0">Item 2</p> <i class="fa fa-arrows"></i>
+                                    </div>
+                                    <div class="d-flex draggable-item justify-content-between" draggable="true">
+                                        <p class="m-0">Item 3</p> <i class="fa fa-arrows"></i>
+                                    </div>
+                                    <div class="d-flex draggable-item justify-content-between" draggable="true">
+                                        <p class="m-0">Item 4</p> <i class="fa fa-arrows"></i>
+                                    </div>
+                                    <div class="d-flex draggable-item justify-content-between" draggable="true">
+                                        <p class="m-0">Item 5</p> <i class="fa fa-arrows"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+               
+            </main>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

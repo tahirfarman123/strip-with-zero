@@ -48,20 +48,25 @@ html,body {
 }
 #os-login .os-bg h1{
     font-weight: 800;
-    font-size: 50px;
+    font-size: 40px;
 }
 #os-login .os-bg p{
     font-size: 12px;
     font-weight: 600;
 }
 #os-login .centerdata{
-width: 50%;    
+width: 60%;    
 margin: 20% auto;
 }
 #os-login .os-pad{
     /* padding: 100px 100px 0px 100px; */
     width: 70%;
     margin: 20% auto 0% auto;
+}
+#os-login .os-pad2{
+    /* padding: 100px 100px 0px 100px; */
+    width: 70%;
+    margin: 3% auto 0% auto;
 }
 #os-login form .descrp1{
     font-size: 30px;
@@ -83,4 +88,52 @@ input::placeholder {
 
 .btn-primary:hover {
     background: linear-gradient(var(--seconday), var(--primary));
+}
+
+
+
+
+
+
+/* forget-page */
+/* #forget{
+    background-color: var(--primary);
+} */
+#forget .container-fluid {
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary);
+    height: 100vh;
+  }
+  #forget #login-box {
+    margin: 25% auto;
+    /* max-width: 600px; */
+    /* height: 320px; */
+    border-radius: 12px;
+    background-color: #fff;
+  }
+ 
+  #forget  #login-form {
+    padding: 20px 40px;
+  }
+  #forget  #forget-link{
+   text-align: center;
+   padding-top: 12px;
+  }
+  #forget  #forget-link a{
+   text-decoration: none;
+   padding-left: 5px;
+  }
+  #forget  #forget-link span{
+   color: var(--primary);
+   
+  }
+  
+
+
+@media(max-width: 600px){
+    .col-sm-12{
+        width: 100%;
+    }
+
 }
